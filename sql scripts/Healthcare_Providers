@@ -15,4 +15,4 @@ VALUES
 ('Dr. Alisson Baker', 'Pediatrician', '+254701234567', 'Alisson101@gmail.com', 'Kenyatta National Hospital', 10),
 ('Dr. Craig Robinson', 'Neurologist', '+254702345678', 'Craig05@hotmail.com', 'Kenyatta National Hospital', 8),
 ('Dr. Grace Nabwire', 'Gynecologist', '+254797456789', 'gracenabwire@gmail.com', '`Kenyatta National Hospital', 12),
-('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Kenyatta National Hospital', 5);
+('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', '', 5);
