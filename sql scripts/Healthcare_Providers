@@ -12,7 +12,7 @@ CREATE TABLE Healthcare_Providers (
 INSERT INTO Healthcare_Providers (name, specialization, contact_number, email, hospital_affiliation, experience_years)
 VALUES
 ('Dr. David Xavier', 'Cardiologist', '+254700123456', 'XavierD@yahoo.com', 'Kenyatta National Hospital', 15),
-('Dr. Alisson Baker', 'Pediatrician', '+254701234567', 'Alisson101@gmail.com', 'Amref Hospital', 10),
-('Dr. Craig Robinson', 'Neurologist', '+254702345678', 'Craig05@hotmail.com', 'Gertrude Hospital', 8),
-('Dr. Grace Nabwire', 'Gynecologist', '+254797456789', 'gracenabwire@gmail.com', 'Agakhan Hospital', 12),
-('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Nairobi West Hospital', 5);
+('Dr. Alisson Baker', 'Pediatrician', '+254701234567', 'Alisson101@gmail.com', 'Kenyatta National Hospital', 10),
+('Dr. Craig Robinson', 'Neurologist', '+254702345678', 'Craig05@hotmail.com', 'Kenyatta National Hospital', 8),
+('Dr. Grace Nabwire', 'Gynecologist', '+254797456789', 'gracenabwire@gmail.com', '`Kenyatta National Hospital', 12),
+('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Kenyatta National Hospital', 5);
