@@ -19,7 +19,7 @@ INSERT INTO Healthcare_Providers (name, specialization, contact_number, email, h
  ('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Nairobi West Hospital', 5);
 
  UPDATE Healthcare_Providers
-SET hospital_affiliation = 'Kenyatta National Hospital';
+SET hospital_affiliation = 'Kenyatta National Hospital.';
 
  
  
