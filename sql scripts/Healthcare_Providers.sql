@@ -10,14 +10,13 @@ CREATE TABLE Healthcare_Providers (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
 );
-INSERT INTO Healthcare_Providers (name, specialization, contact_number, email, hospital_affiliation, experience_years)
+INSERT INTO Healthcare_Providers ( provider_id,name, specialization, contact_number, email, hospital_affiliation, experience_years)
  VALUES
- ('Dr. David Xavier', 'Cardiologist', '+254700123456', 'XavierD@yahoo.com', 'Kenyatta National Hospital', 15),
- ('Dr. Alisson Baker', 'Pediatrician', '+254701234567', 'Alisson101@gmail.com', 'Amref Hospital', 10),
- ('Dr. Craig Robinson', 'Neurologist', '+254702345678', 'Craig05@hotmail.com', 'Gertrude Hospital', 8),
- ('Dr. Grace Nabwire', 'Gynecologist', '+254797456789', 'gracenabwire@gmail.com', 'Agakhan Hospital', 12),
- ('Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Nairobi West Hospital', 5);
-
+(201, 'Dr. David Xavier', 'Cardiologist', '+254700123456', 'XavierD@yahoo.com', 'Kenyatta National Hospital', 15),
+(202, 'Dr. Alisson Baker', 'Pediatrician', '+254701234567', 'Alisson101@gmail.com', 'Amref Hospital', 10),
+(203, 'Dr. Craig Robinson', 'Neurologist', '+254702345678', 'Craig05@hotmail.com', 'Gertrude Hospital', 8),
+(204, 'Dr. Grace Nabwire', 'Gynecologist', '+254797456789', 'gracenabwire@gmail.com', 'Agakhan Hospital', 12),
+(205, 'Nurse Samuel Kato', 'General Nurse', '+254704567890', 'samuelkato@yahoo.com', 'Nairobi West Hospital', 5);
  UPDATE Healthcare_Providers
 SET hospital_affiliation = 'Kenyatta National Hospital.';
 

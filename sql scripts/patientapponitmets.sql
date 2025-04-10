@@ -1,14 +1,14 @@
 CREATE TABLE Appointments (
     AppointmentID INT AUTO_INCREMENT PRIMARY KEY,
     PatientID INT,
-    DoctorID INT,
+    provider_id INT,
     AppointmentDate DATETIME,
     ReasonForVisit TEXT,
     FOREIGN KEY (PatientID) REFERENCES Patients(PatientID),
-    FOREIGN KEY (DoctorID) REFERENCES Doctors(DoctorID)
+    FOREIGN KEY (provider_id) REFERENCES Healthcare_Provider(provider_id)
 );
 
-INSERT INTO Appointments (PatientID, DoctorID, AppointmentDate, ReasonForVisit)
+INSERT INTO Appointments (PatientID, provider_id, AppointmentDate, ReasonForVisit)
 VALUES
 (101, 201, '2025-04-10 10:00:00', 'Routine check-up'),
 (102, 202, '2025-04-11 14:30:00', 'Flu symptoms'),
